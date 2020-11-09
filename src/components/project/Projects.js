@@ -35,19 +35,14 @@ const Projects = () => {
           All
         </div>
         <div
-          className={active === 'react.js' && 'projects__navbar-active'}
-          onClick={() => filterProjects('react.js')}>
+          className={active === 'React' && 'projects__navbar-active'}
+          onClick={() => filterProjects('React')}>
           React
         </div>
         <div
-          className={active === 'mongoDB' && 'projects__navbar-active'}
-          onClick={() => filterProjects('mongoDB')}>
-          MongoDB
-        </div>
-        <div
-          className={active === 'node.js' && 'projects__navbar-active'}
-          onClick={() => filterProjects('node.js')}>
-          Node
+          className={active === 'MERN' && 'projects__navbar-active'}
+          onClick={() => filterProjects('MERN')}>
+          MERN
         </div>
         <div
           className={active === 'vanilla' && 'projects__navbar-active'}
