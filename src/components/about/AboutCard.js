@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const AboutCard = ({ skill: { icon, title, about } }) => {
   return (
@@ -12,6 +13,10 @@ const AboutCard = ({ skill: { icon, title, about } }) => {
       </div>
     </div>
   );
+};
+
+AboutCard.propTypes = {
+  skill: PropTypes.object.isRequired
 };
 
 export default AboutCard;

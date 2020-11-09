@@ -13,6 +13,7 @@ const Skill = () => {
           ))}
         </div>
       </div>
+
       <div className='col-lg-6'>
         <h5 className='skill-language__header'>Tools and Software</h5>
         <div className='mt-3'>

@@ -1,6 +1,7 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const SkillBar = ({ value: { icon, name, level } }) => {
+const SkillBar = ({ value: { name, level } }) => {
   const bar_width = `${level}%`;
   return (
     <div className='bar'>
@@ -9,6 +10,10 @@ const SkillBar = ({ value: { icon, name, level } }) => {
       </div>
     </div>
   );
+};
+
+SkillBar.propTypes = {
+  value: PropTypes.object.isRequired
 };
 
 export default SkillBar;

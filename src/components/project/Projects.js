@@ -7,6 +7,8 @@ const Projects = () => {
   const [projects, setProjects] = useState(projects_data);
   const [active, setActive] = useState('All');
 
+  const project_types = ['React', 'MERN', 'Vanilla'];
+
   const filterProjects = (name) => {
     setProjects(projects_data.filter((project) => project.category.includes(name)));
     setActive(name);
@@ -34,21 +36,15 @@ const Projects = () => {
           }}>
           All
         </div>
-        <div
-          className={active === 'React' && 'projects__navbar-active'}
-          onClick={() => filterProjects('React')}>
-          React
-        </div>
-        <div
-          className={active === 'MERN' && 'projects__navbar-active'}
-          onClick={() => filterProjects('MERN')}>
-          MERN
-        </div>
-        <div
-          className={active === 'vanilla' && 'projects__navbar-active'}
-          onClick={() => filterProjects('vanilla')}>
-          Vanilla
-        </div>
+
+        {/* cycle through all project types to make a clickable tab for each to filter projects */}
+        {project_types.map((type) => (
+          <div
+            className={active === `${type}` && 'projects__navbar-active'}
+            onClick={() => filterProjects(`${type}`)}>
+            {type}
+          </div>
+        ))}
       </div>
 
       <div className='row'>

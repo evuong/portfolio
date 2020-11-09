@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const ProjectCard = ({ project: { name, image, deployed_url, github_url } }) => {
   return (
@@ -16,6 +17,11 @@ const ProjectCard = ({ project: { name, image, deployed_url, github_url } }) => 
       </figure>
     </div>
   );
+};
+
+// prop types
+ProjectCard.propTypes = {
+  project: PropTypes.object.isRequired
 };
 
 export default ProjectCard;

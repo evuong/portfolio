@@ -43,7 +43,7 @@ const projects_data = [
     image: form_validation,
     deployed_url: 'https://github.com/evuong/WEB222/tree/master/Assignment%206',
     github_url: 'https://github.com/evuong/WEB222/tree/master/Assignment%206',
-    category: ['vanilla']
+    category: ['Vanilla']
   },
 
   {
@@ -51,7 +51,7 @@ const projects_data = [
     image: storefront,
     deployed_url: 'https://github.com/evuong/WEB222/tree/master/Assignment%205/partB',
     github_url: 'https://github.com/evuong/WEB222/tree/master/Assignment%205/partB',
-    category: ['vanilla']
+    category: ['Vanilla']
   }
 ];
 
