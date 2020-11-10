@@ -55,4 +55,6 @@ const projects_data = [
   }
 ];
 
-export default projects_data;
+const project_types = ['React', 'MERN', 'Vanilla'];
+
+export { projects_data, project_types };

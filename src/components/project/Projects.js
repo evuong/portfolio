@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import ProjectCard from './ProjectCard';
-import projects_data from '../../data/projects_data';
+import { projects_data, project_types } from '../../data/projects_data';
 
 const Projects = () => {
   const [projects, setProjects] = useState(projects_data);
   const [active, setActive] = useState('All');
-
-  const project_types = ['React', 'MERN', 'Vanilla'];
 
   const filterProjects = (name) => {
     setProjects(projects_data.filter((project) => project.category.includes(name)));

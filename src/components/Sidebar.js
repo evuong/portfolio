@@ -19,7 +19,7 @@ const Sidebar = () => {
       <div className='sidebar__name'>
         Edward <span>Vuong</span>
       </div>
-      <div className='sidebar__item sidebar__title'>Web Developer</div>
+      <div className='sidebar__item sidebar__title'>Computer Programmer</div>
       <a href={Resume} download='resume.pdf'>
         <div className='sidebar__item sidebar__resume'>
           <i className='fas fa-file-pdf fa-lg'></i> Download Resume

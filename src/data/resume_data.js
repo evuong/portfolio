@@ -18,4 +18,27 @@ const tools = [
   { name: 'Microsoft Excel', level: '80' }
 ];
 
-export { languages, tools };
+const education = [
+  {
+    title: 'Computer Programming & Analysis',
+    location: 'Seneca College (2018 - 2020)',
+    description:
+      'Learned computer programming through many technical projects and group work. Completed courses in Java, C++, SQL and web development stack (JavaScript, HTML, CSS).'
+  },
+  {
+    title: 'Business Management - Marketing Major',
+    location: 'Ryerson University (2013 - 2017)',
+    description: 'Studied business management and majored in Marketing.'
+  }
+];
+
+const experience = [
+  {
+    title: 'Database and Software Applications Developer',
+    location: 'Toronto Transit Commission (2019 - 2020)',
+    description:
+      'Worked at the TTC to create database applications and improve efficiency of existing systems. Applied programming and analytical problem solving skills to assist managers and forepersons.'
+  }
+];
+
+export { languages, tools, education, experience };
