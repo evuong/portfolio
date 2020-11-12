@@ -28,7 +28,8 @@ const education = [
   {
     title: 'Business Management - Marketing Major',
     location: 'Ryerson University (2013 - 2017)',
-    description: 'Studied business management and majored in Marketing.'
+    description:
+      'Studied business management with a major in marketing. Worked on a marketing plan for a non-profit organization. After proposed plan was accepted, funds were raised from private and public channels.'
   }
 ];
 
