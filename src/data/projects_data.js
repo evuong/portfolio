@@ -4,6 +4,7 @@ import it_logger from '../assets/projects_images/it_logger.png';
 import todo_list from '../assets/projects_images/todo_list.png';
 import form_validation from '../assets/projects_images/form_validation.png';
 import storefront from '../assets/projects_images/storefront.jpg';
+import shopping_list from '../assets/projects_images/shopping_list.png';
 
 const projects_data = [
   {
@@ -52,9 +53,16 @@ const projects_data = [
     deployed_url: 'https://github.com/evuong/WEB222/tree/master/Assignment%205/partB',
     github_url: 'https://github.com/evuong/WEB222/tree/master/Assignment%205/partB',
     category: ['Vanilla']
+  },
+  {
+    name: 'Shopping List',
+    image: shopping_list,
+    deployed_url: 'https://expo.io/@evuong/projects/ShoppingList',
+    github_url: 'https://github.com/evuong/shopping-list',
+    category: ['React Native']
   }
 ];
 
-const project_types = ['React', 'MERN', 'Vanilla'];
+const project_types = ['React', 'MERN', 'Vanilla', 'React Native'];
 
 export { projects_data, project_types };
