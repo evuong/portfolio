@@ -5,8 +5,16 @@ import todo_list from '../assets/projects_images/todo_list.png';
 import form_validation from '../assets/projects_images/form_validation.png';
 import storefront from '../assets/projects_images/storefront.jpg';
 import shopping_list from '../assets/projects_images/shopping_list.png';
+import hangman from '../assets/projects_images/hangman.png';
 
 const projects_data = [
+  {
+    name: 'Hangman',
+    image: hangman,
+    deployed_url: 'https://hangman432.netlify.app/',
+    github_url: 'https://github.com/evuong/hangman',
+    category: ['React']
+  },
   {
     name: 'Contact Keeper',
     image: contact_keeper,
