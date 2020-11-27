@@ -6,6 +6,7 @@ import form_validation from '../assets/projects_images/form_validation.png';
 import storefront from '../assets/projects_images/storefront.jpg';
 import shopping_list from '../assets/projects_images/shopping_list.png';
 import hangman from '../assets/projects_images/hangman.png';
+import tilegame from '../assets/projects_images/tile-game.png';
 
 const projects_data = [
   {
@@ -45,6 +46,13 @@ const projects_data = [
     deployed_url: 'https://github.com/evuong/todo-list',
     github_url: 'https://github.com/evuong/todo-list',
     category: ['React']
+  },
+  {
+    name: 'Web Socket Tile Game',
+    image: tilegame,
+    deployed_url: 'https://github.com/evuong/websocket-game',
+    github_url: 'https://github.com/evuong/websocket-game',
+    category: ['Vanilla']
   },
 
   {
